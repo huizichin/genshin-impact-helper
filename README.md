@@ -8,7 +8,23 @@
 
 [Napkatti fork](https://github.com/napkatti/genshin-impact-helper/)
 
-## Usage
+## NEW ALTERNATIVE METHOD (Much safer)
+
+[am-steph fork (Heroku tutorial)](https://github.com/am-steph/genshin-impact-helper/tree/heroku)
+
+## Update on existing method (Github Actions)
+
+It is not advisible to use Github Actions for auto check-in as it is **against Github terms of service**.
+
+Please check [am-steph fork (Heroku)](https://github.com/am-steph/genshin-impact-helper/tree/heroku) if you wish to auto check-in with the help of another free web services similar to Github action.
+
+Please check [Napkatti fork](https://github.com/napkatti/genshin-impact-helper/) README for explanation on why using this Github action is risky.
+
+If you need any help or discussion, please find us in [TakaGG Discord](https://discord.gg/takagg) at `#autocheckin-chat channel`.
+
+I will not make any changes to the instructions below, but **please use it at your own risk**.
+
+## Usage (Not advisible)
 
 1. Fork this repository to your own account.  
    ![](https://imgur.com/VUH3ZwB.png)
