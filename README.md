@@ -10,13 +10,13 @@
 
 ## NEW ALTERNATIVE METHOD (Much safer)
 
-[am-steph fork (Heroku tutorial)](https://github.com/am-steph/genshin-impact-helper/tree/heroku)
+[am-steph fork (Heroku tutorial)](https://github.com/am-steph/genshin-impact-helper)
 
 ## Update on existing method (Github Actions)
 
 It is not advisible to use Github Actions for auto check-in as it is **against Github terms of service**.
 
-Please check [am-steph fork (Heroku)](https://github.com/am-steph/genshin-impact-helper/tree/heroku) if you wish to auto check-in with the help of another free web services similar to Github action.
+Please check [am-steph fork (Heroku)](https://github.com/am-steph/genshin-impact-helper) if you wish to auto check-in with the help of another free web services similar to Github action.
 
 Please check [Napkatti fork](https://github.com/napkatti/genshin-impact-helper/) README for explanation on why using this Github action is risky.
 
@@ -43,7 +43,7 @@ I will not make any changes to the instructions below, but **please use it at yo
 11. In the "Name" box type in `OS_COOKIE`
 12. In the "Value" box paste the text you copied earlier  
     ![](https://imgur.com/6EcYnEu.png)
-    - Remove any quotation marks "" at the front or end of the text 
+    - Remove any quotation marks "" at the front or end of the text
     - Go back to the MiHoYo event website. You may close the tab but do not click the "Log Out" button because it may cause your cookie to expire.
     - **IF YOU WANT TO CHECK-IN MULTIPLE GENSHIN ACCOUNTS:**
     1. Paste your first cookie into the Value box on GitHub, but do not click "Add Secret" yet.
@@ -92,5 +92,5 @@ Instructions provided by https://github.com/am-steph/genshin-impact-helper
    ![](https://i.imgur.com/YusKz6V.png)
 5. Run the github action again and check for message in the channel you set the webhook in
    ![](https://i.imgur.com/0FMvJHW.png)
-   
+
 To stop receiving Discord notifications, delete your DISCORD_WEBHOOK secret.
