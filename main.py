@@ -15,7 +15,6 @@ def job():
     print("Sleeping for: %ds" % randomSleep)
     time.sleep(randomSleep)
     exec(open('./run.py').read())
-    rs = True
 
 schedule.every().day.at(fot).do(job)
 
