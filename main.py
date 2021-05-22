@@ -1,4 +1,4 @@
-import random, time, os, schedule
+import random, time, schedule
 import datetime as dt
 #This will offset the server time on heroku it is UTC+0, Change this accordingly.
 utc_timezone = +8
