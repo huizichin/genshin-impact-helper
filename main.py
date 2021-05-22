@@ -7,7 +7,7 @@ run_time = '06:30'
 
 tt = dt.datetime.strptime(run_time, '%H:%M')
 ha = dt.timedelta(hours = utc_timezone)
-lt = tt + ha
+lt = tt - ha
 fot = lt.strftime("%H:%M")
 
 def job():
