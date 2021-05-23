@@ -14,7 +14,7 @@ def job():
     randomSleep = random.randint(10,300)
     print("Sleeping for: %ds" % randomSleep)
     time.sleep(randomSleep)
-    exec(open('./run.py').read())
+    exec(open('./genshin-os.py').read())
 
 schedule.every().day.at(fot).do(job)
 
